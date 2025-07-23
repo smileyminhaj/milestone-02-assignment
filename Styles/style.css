@@ -1,3 +1,10 @@
+/* ==========Basic Structure========== */
+*{
+  padding: 0;
+  margin: 0 auto;
+}
+/* ==========Header Section========== */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -31,4 +38,18 @@
     display: none;
 }
 
+}
+/* ========== Banner Section ========== */
+.banner-parent{
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  background-color: #d6d6d6;
+  border: 2px solid tomato;
+
+}
+
+.banner-desc{
+  text-align: left;
 }
