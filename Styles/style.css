@@ -10,7 +10,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  margin: 0 auto;
 }
 
 .logo {
@@ -33,16 +32,12 @@
     display: flex;
 }
 
-@media screen and (max-width:576px){
-.nav-links{
-    display: none;
-}
 
-}
 /* ========== Banner Section ========== */
 .banner-parent{
   width: 1140px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items:flex-end;
   background-color: #d6d6d6;
@@ -52,4 +47,16 @@
 
 .banner-desc{
   text-align: left;
+}
+
+
+/*==========Small Screen==========*/
+@media screen and (max-width:576px){
+.nav-links{
+    display: none;
+}
+.banner-parent{
+  flex-direction: column;
+}
+
 }
