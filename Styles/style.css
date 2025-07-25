@@ -183,6 +183,10 @@ h1 {
 .deal-right {
   position: relative;
 }
+.left-child{
+  position: relative;
+  
+}
 .img-position {
   position: absolute;
   top: 50%;
@@ -432,6 +436,11 @@ h1 {
     text-align: center;
     width: 90vw;
     font-size: 15px;
+  }
+  /* Join Section */
+  .ubscribe-section{
+    width: 100%;
+    padding: 10px 20px;
   }
 
   /* Footer Section */
