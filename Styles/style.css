@@ -160,7 +160,38 @@ h1 {
   text-align: center;
   margin: 0 auto;
 }
-
+.deals-desc{
+  width: 888px;
+  font-size: 18px;
+  text-align: center;
+}
+.deal-left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.deal-right{
+ position: relative;
+}
+.img-position{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: ;
+}
+.collage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.collage img{
+  border-radius: 12px;
+  filter: brightness(60%);
+}
 /* Small Screen Media Query */
 @media screen and (max-width: 576px) {
   /* Header section */
@@ -229,19 +260,32 @@ h1 {
   /* Plant Lover Section */
   .plants-lover-section {
     display: flex;
+    margin:0;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
+    justify-content: center;;
   }
   .pl-left {
     width: 100%;
   }
   .pl-right {
     width: 90%;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 /* Just for easy to understand the container size and all atribute and it's used for temporarily deisnging the section */
 .tmp {
   background-color: red;
+  color: white;
+}
+.tmp2 {
+  background-color: rgb(34, 253, 0);
+  color: white;
+}
+.tmp3 {
+  background-color: rgb(0, 21, 255);
   color: white;
 }
