@@ -232,12 +232,21 @@ h1 {
   align-items: center;
   color: white;
   text-align: center;
-  padding: 30px;
   margin: 0 auto;
-}
 
+}
+#subscribed{
+margin-right: 0px;
+}
+.btnemail{
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
 .subscribe-section h1 {
   font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
   margin-bottom: 20px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -245,12 +254,11 @@ h1 {
 .subscribe-box {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 10px 30px;
-  border-radius: 8px;
   display: flex;
   gap: 0px;
   align-items: center;
   margin: 0 auto;
-  padding: 8px 20px 8px 20px;
+  
 }
 
 .subscribe-box input[type='email'] {
