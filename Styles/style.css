@@ -1,62 +1,125 @@
-/* ==========Basic Structure========== */
-*{
+/* ==========Basic Style========== */
+* {
   padding: 0;
   margin: 0 auto;
+  box-sizing: border-box;
 }
-/* ==========Header Section========== */
 
+/* ==========Font========== */
+.inter-font {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.noto-serif-font {
+  font-family: 'Noto Serif', serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+/* ==========Shared Styles========== */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* ==========Header Section========== */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 0px;
+  margin-top: 20px;
 }
 
 .logo {
   display: flex;
-  flex-direction: column;
+  margin: 0px;
   align-items: flex-start;
   max-width: 20%;
 }
-
-.nav-links a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #333;
+.menu-cart {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  font-size: 1.2rem;
+  margin: 0px;
+}
+ul {
+  display: flex;
+  gap: 48px;
+  align-items: center;
 }
 
 .cart {
   font-weight: bold;
 }
-.menu-cart{
-    display: flex;
-}
 
-
-/* ========== Banner Section ========== */
-.banner-parent{
+/* Banner Serction Design */
+.banner-parent {
+  margin-top: 0px;
+  min-height: 400px;
   width: 1140px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items:flex-end;
-  background-color: #d6d6d6;
-  border: 2px solid tomato;
-
+  align-items: flex-end;
+}
+.banner-left {
+  width: 50%;
+}
+.banner-right {
+  width: 50%;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2em;
+}
+.banner-desc {
+  font-size: 24px;
 }
 
-.banner-desc{
-  text-align: left;
-}
-
-
-/*==========Small Screen==========*/
-@media screen and (max-width:576px){
-.nav-links{
+/* Small Screen Media Query */
+@media screen and (max-width: 576px) {
+ /* Header section */
+  .header {
+    padding: 20px;
+    width: 96vw;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+  }
+  .nav {
     display: none;
-}
-.banner-parent{
-  flex-direction: column;
+  }
+
+  /* Banner Section */
+  .banner-parent {
+    flex-direction: column-reverse;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .banner-left {
+    margin: 0;
+  }
+  .banner-right {
+    margin: 0;
+  }
+
+  span{
+    margin: 0;
+  }
 }
 
+/* Just for easy to understand the container size and all atribute and it's used for temporarily deisnging the section */
+.tmp {
+  background-color: red;
+  color: white;
 }
