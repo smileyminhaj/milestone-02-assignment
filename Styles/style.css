@@ -205,7 +205,21 @@ h1 {
 .collage img {
   border-radius: 12px;
   filter: brightness(60%);
+  width: 100%;
   margin: 0;
+  width: 100%;
+}
+.deal-left{
+  width: 50%;
+}
+
+.left-child{
+  margin: 0;
+}
+.deal-right{
+  width: 100%;
+  margin: 0;
+
 }
 /* Join Section */
 .subscribe-section {
