@@ -83,7 +83,7 @@ h1 {
 }
 
 /* Our Plants Section */
-.plants-parent{
+.plants-parent {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,34 +91,31 @@ h1 {
   text-align: center;
   margin-top: 20px;
 }
-.plants-title{
+.plants-title {
   font-size: 40px;
   font-weight: 600;
   padding: 10px;
 }
-.plants-desc{
+.plants-desc {
   color: rgb(115, 114, 114);
   font-size: 24px;
   padding: 10px;
 }
-.product-container{
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-gap: 30px;
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
-.product{
-
+.product {
 }
-.product-name{
+.product-name {
   font-size: 18px;
-  
 }
-.product-price{
-   font-size: 20px;
-   font-weight: 500;
-  
+.product-price {
+  font-size: 20px;
+  font-weight: 500;
 }
-.btn{
+.btn {
   background-color: rgb(233, 90, 8);
   color: white;
   padding: 10px;
@@ -126,36 +123,43 @@ gap: 30px;
 }
 
 /* Plants Lover Section */
-.plants-lover-section{
+.plants-lover-section {
   margin-top: 70px;
   display: flex;
   gap: 30px;
 }
-.pls-img{
-width: 100%;
+.pls-img {
+  width: 100%;
 }
-.ul{
+.ul {
   flex-direction: column;
 }
-.pl-left{
+.pl-left {
   width: 50%;
-  
 }
-.pl-right{
+.pl-right {
   width: 50%;
   gap: 40px;
 }
-.flp-title{
+.flp-title {
   font-size: 40px;
   font-weight: 700;
 }
-.flp-list li{
-  list-style:disc;
+.flp-list li {
+  list-style: disc;
 }
-.flower-lover-item{
+.flower-lover-item {
   font-size: 1.5rem;
 }
-
+/* Latest Deals */
+.latest-deals{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
 
 /* Small Screen Media Query */
 @media screen and (max-width: 576px) {
@@ -181,62 +185,59 @@ width: 100%;
     align-items: center;
   }
 
-  .banner-left{
+  .banner-left {
     margin: 0px;
     margin-top: 25px;
     width: 100%;
-     align-items: left;
+    align-items: left;
     text-align: left;
-    
   }
-  .banner-right{
+  .banner-right {
     margin: 0px;
     width: 100%;
-   
-       
   }
-  h1{
+  h1 {
     font-size: 30px;
     font-weight: 600;
-
   }
   .banner-desc {
-  font-size: 18px;
-}
-/* Our Plans Section */
-.plants-parent{
-  margin-top: 50px;
-}
-.plants-title{
-  font-size: 30px;
-  font-weight: 600;
-  padding: 5px;
-}
-.plants-desc{
-  color: rgb(115, 114, 114);
-  font-size: 16px;
-  padding: 10px;
-}
-.product-container{
-  padding: 20px;
-grid-template-columns: repeat(2, 1fr);
-gap: 30px;
-}
+    font-size: 18px;
+  }
+  .pls-img {
+    width: 100%;
+  }
+  /* Our Plans Section */
+  .plants-parent {
+    margin-top: 50px;
+  }
+  .plants-title {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .plants-desc {
+    color: rgb(115, 114, 114);
+    font-size: 16px;
+    padding: 10px;
+  }
+  .product-container {
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
 
-/* Plant Lover Section */
-.plants-lover-section{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-.pl-left{
-  width: 100%;
-  
-}
-.pl-right{
-  width: 100%;
-  
-}
+  /* Plant Lover Section */
+  .plants-lover-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .pl-left {
+    width: 100%;
+  }
+  .pl-right {
+    width: 90%;
+  }
 }
 
 /* Just for easy to understand the container size and all atribute and it's used for temporarily deisnging the section */
