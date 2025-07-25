@@ -274,6 +274,19 @@ h1 {
     align-items: center;
     justify-content: center;
   }
+
+  /* Last Deal */
+  .collage{
+    flex-direction: column;
+  }
+  .deal-left{
+    flex-direction: column;
+  }
+  .left-child{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* Just for easy to understand the container size and all atribute and it's used for temporarily deisnging the section */
