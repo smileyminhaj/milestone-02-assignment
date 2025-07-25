@@ -124,9 +124,18 @@ h1 {
 
 /* Plants Lover Section */
 .plants-lover-section {
-  margin-top: 70px;
+  margin-top: 120px;
   display: flex;
   gap: 30px;
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: -20%;
+  right: %;
+  left: 45%;
+  transform: translateX(-50%);
+  width: 300px;
 }
 .pls-img {
   width: 100%;
@@ -227,7 +236,7 @@ h1 {
 }
 
 .subscribe-box input[type='email'] {
-  padding: 10px;
+  padding: 10px 30p;
   border: none;
   border-radius: 4px;
   flex: 1;
@@ -394,6 +403,9 @@ h1 {
     padding: 20px;
     justify-content: center;
   }
+  .badge {
+    display: none;
+  }
   .pl-left {
     width: 100%;
   }
@@ -409,10 +421,11 @@ h1 {
   }
   .deal-left {
     flex-direction: column;
+    width: 100%;
   }
   .left-child {
-    width: 100%;
-    margin: 0;
+    width: 90%;
+    margin: 0 auto;
     padding: 0;
   }
   .deals-desc {
@@ -451,7 +464,8 @@ h1 {
     margin: 0;
     padding: 0;
   }
-  .footer-box-2, .footer-box-3{
+  .footer-box-2,
+  .footer-box-3 {
     align-items: flex-start;
     text-align: left;
     margin: 0;
